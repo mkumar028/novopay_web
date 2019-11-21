@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <style>
+        .inline-block {
+            color: blue;
+        }
+        #block_element {
+            color: green;
+        }
+        .parent {
+            height: 250px;
+            width: 300px;
+            border: 1px solid black;
+        }
+        .children {
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <p class="block" id="block_element">This is a block element</p>
+    <span class="inline" id="block_element">This is an inline element</span>
+    <span>This is an inline element</span>
+    <span class="inline-block"> This is an inline-block element</span>
+    <div class="parent">
+        this is parent
+        <p class="children">this is children</p>
+    </div>
+</body>
+</html>
